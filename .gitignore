@@ -12,6 +12,7 @@ ENV/
 dist/
 build/
 .env
+env
 
 # FastAPI
 .env
