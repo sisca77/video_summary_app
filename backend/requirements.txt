@@ -10,3 +10,6 @@ langchain-community==0.0.38
 langgraph==0.0.32
 pydantic==2.5.0
 aiofiles==23.2.1
+yt-dlp==2023.12.30
+youtube-transcript-api==0.6.2
+pydub==0.25.1

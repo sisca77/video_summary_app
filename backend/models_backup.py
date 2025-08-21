@@ -10,7 +10,6 @@ class VideoUploadResponse(BaseModel):
 class YouTubeProcessRequest(BaseModel):
     youtube_url: str
     summary_ratio: float = Field(default=0.5, ge=0.3, le=0.7)
-    download_video: bool = Field(default=False, description="True: download video, False: audio only")
 
 
 class ProcessingStatus(BaseModel):
@@ -22,8 +21,7 @@ class ProcessingStatus(BaseModel):
     outline: Optional[str] = None
     detailed_explanation: Optional[str] = None
     error: Optional[str] = None
-    metadata: Optional[Dict] = None  # YouTube metadata
-    downloaded_file_path: Optional[str] = None  # Downloaded file path
+    metadata: Optional[Dict] = None  # YouTube 메타데이터
 
 
 class VideoSummaryResult(BaseModel):
@@ -33,4 +31,3 @@ class VideoSummaryResult(BaseModel):
     outline: str
     processing_time: float
     metadata: Optional[Dict] = None
-    downloaded_file_path: Optional[str] = None

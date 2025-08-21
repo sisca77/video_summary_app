@@ -49,3 +49,43 @@ Thumbs.db
 chunks/
 *_chunk_*.mp4
 *_chunk_*.mp3
+
+# Node/Next
+frontend/node_modules/
+frontend/.next/
+frontend/.vercel/
+frontend/.env
+frontend/.env.local
+
+# Python
+backend/venv/
+backend/__pycache__/
+backend/.env
+
+# App artifacts
+backend/uploads/
+*.log
+
+# OS/IDE
+.DS_Store
+Thumbs.db
+.vscode/# Node/Next
+frontend/node_modules/
+frontend/.next/
+frontend/.vercel/
+frontend/.env
+frontend/.env.local
+
+# Python
+backend/venv/
+backend/__pycache__/
+backend/.env
+
+# App artifacts
+backend/uploads/
+*.log
+
+# OS/IDE
+.DS_Store
+Thumbs.db
+.vscode/
